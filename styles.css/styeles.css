@@ -1,0 +1,37 @@
+@import url('https://fonts.gooleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*Definir a cor das variaveis*/
+
+:root {
+    --color-primary-1: #8bc34a;
+    --color-primary-2: #8bc34aa6;
+
+    --color-neutral-1: #f8fafc;
+    --color-neutral-2: #24232b;    
+    --color-neutral-3: #13121a;
+}
+    
+/*Global*/
+     {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       font-family:  'Roboto Mono', monospace;
+     }
+     
+     body {
+         display: flex;
+         aling-items: center;
+         ustify-content: center;
+         min-heigth: 100vh;
+         background-color: var(--color-neutral-3);
+       }
+
+/*Container*/
+  #container {
+  display: flex;
+  flex-direction: colum;
+  aling-items: center;
+  gap: 12px;
+}
+
